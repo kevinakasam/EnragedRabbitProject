@@ -2,7 +2,7 @@
 
 This is a simple filament cutter for the ERCF so tip tuning is less important.
 
-It's made out of a Servo and a scalpell/exacto knife blade. The cutter get's mouted to the selector chart just behind the encoder - the cutter is basically an arm that swings to the left and right. Since the ECAS sits now on the Arm the filament path can be opened by swining the arm to the side. Then the ERCF can feed some filament mid air (*the filament tip*) and when the arm swings back to close the filament path the tip gets cut off by the knife on the arm. The cot off tip just falls off to the ground and the filament can be loaded with a clean tip the next time.
+It's made out of a Servo and a scalpell/exacto knife blade. The cutter get's mouted to the selector chart just behind the encoder - the cutter is basically an arm that swings to the left and right. Since the ECAS sits now on the Arm the filament path can be opened by swining the arm to the side. Then the ERCF can feed some filament mid air (*the filament tip*) and when the arm swings back to close the filament path the tip gets cut off by the knife on the arm. The cut off tip just falls off to the ground and the filament can be loaded with a clean tip the next time. The filament path can also get blocked when the arm only moves ~50% of it's travel (this might be interesting for homing the filament against the cutter).
 
 #### Credits
 
@@ -10,7 +10,14 @@ Thanks to u/[BioKeks](https://github.com/BioCookieYT) for tinkering with me! Luc
 
 ![](Images/Render.png)
 
- <img src="Images/Cutter1.jpg" width=49% >  <img src="Images/Cutter2.jpg" width=49% >
+<img src="Images/Cutter1.jpg" width=49% > <img src="Images/Cutter2.jpg" width=49% > 
+
+ #### Cutter Action:
+ 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=-_qIqNOiTIw
+" target="_blank"><img src="Images/yt.png" 
+alt="Cutter Preview" width="32%" border="10" /></a>
+ 
 
 ### BOM
 
